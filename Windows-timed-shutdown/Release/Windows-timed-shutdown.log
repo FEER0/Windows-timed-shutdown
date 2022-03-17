@@ -1,0 +1,40 @@
+﻿Der Buildvorgang wurde am 17.03.2022 19:09:15 gestartet.
+     1>Projekt "D:\Dokumente\Programme\C++\Windows-timed-shutdown\Windows-timed-shutdown\Windows-timed-shutdown.vcxproj" auf Knoten "2", build Ziel(e).
+     1>PrepareForBuild:
+         Das Verzeichnis "D:\Dokumente\Programme\C++\Windows-timed-shutdown\Release\" wird erstellt.
+       InitializeBuildStatus:
+         "Release\Windows-timed-shutdown.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       GenerateTargetFrameworkMonikerAttribute:
+       Das Ziel "GenerateTargetFrameworkMonikerAttribute" wird übersprungen, da alle Ausgabedateien hinsichtlich der Eingabedateien aktuell sind.
+       ClCompile:
+         E:\Programme\VisualStudio++\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Windows-timed-shutdown.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         E:\Programme\VisualStudio++\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Windows-timed-shutdown.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "Windows-timed-shutdown.cpp" /clr:nostdlib 
+         AssemblyInfo.cpp
+         Windows-timed-shutdown.cpp
+     1>d:\dokumente\programme\c++\windows-timed-shutdown\windows-timed-shutdown\Form1.h(206): warning C4101: 'e': Unreferenzierte lokale Variable
+         Code wird generiert...
+         E:\Programme\VisualStudio++\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\schaf.DESKTOP-DIKDBCM\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Release\Windowstimedshutdown.Form1.resources
+         Die Ressourcendatei "Form1.resX" wird zu "Release\Windowstimedshutdown.Form1.resources" verarbeitet.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         E:\Programme\VisualStudio++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dokumente\Programme\C++\Windows-timed-shutdown\Release\Windows-timed-shutdown.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Windowstimedshutdown.Form1.resources /MANIFEST /ManifestFile:"Release\Windows-timed-shutdown.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dokumente\Programme\C++\Windows-timed-shutdown\Release\Windows-timed-shutdown.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\stdafx.obj
+         "Release\Windows-timed-shutdown.obj"
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Windows-timed-shutdown.vcxproj -> D:\Dokumente\Programme\C++\Windows-timed-shutdown\Release\Windows-timed-shutdown.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Dokumente\Programme\C++\Windows-timed-shutdown\Release\Windows-timed-shutdown.exe;#1" /manifest "Release\Windows-timed-shutdown.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Die Datei "Release\Windows-timed-shutdown.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\Windows-timed-shutdown.lastbuildstate".
+     1>Die Erstellung des Projekts "D:\Dokumente\Programme\C++\Windows-timed-shutdown\Windows-timed-shutdown\Windows-timed-shutdown.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:01.45
